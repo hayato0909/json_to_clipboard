@@ -1,0 +1,15 @@
+[package]
+name = "nu_plugin_copy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nu-plugin = "0.84.0"
+nu-protocol = "0.84.0"
+nu-path = "0.85.0"
+serde = "1.0.130"
+serde_json = { version = "1.0.67", features = ["preserve_order"] }
+clipboard = "0.5"
+
